@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+aside {
+    grid-area: aside;
+    background-color: antiquewhite;
+}
+
+main {
+    grid-area: main;
+    background-color: azure;
+}
+
+
+
+footer {
+    grid-area: footer;
+    background-color: blueviolet;
+}
+
+
+.borde {
+    border: 2px solid black;
+
+}
+
+
+
+
+
+body {
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'aside main'
+        'footer footer';
+
+}
