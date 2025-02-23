@@ -15,7 +15,6 @@ body {
     grid-template-rows: 0.5fr 6fr 0.5fr;
 
 
-
 }
 
 header {
@@ -27,6 +26,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -40,7 +40,6 @@ main {
     grid-area: main;
     border: 1px solid transparent;
     background-color: rgb(128, 128, 128, 0.2);
-
 }
 
 footer {
@@ -50,7 +49,7 @@ footer {
     align-items: center;
     font-size: 2rem;
     border: 1px solid transparent;
-    background-color: white;
+
 }
 
 /*fin cuerpo*/
@@ -105,20 +104,20 @@ footer {
 
 
 .contenedor-cards {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
     background-color: rgb(128, 128, 128, 0.2);
-    gap: 30px;
+    gap: 10px;
     padding-top: 1em;
     padding-bottom: 1em;
-    border: 1px solid transparent;
+
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 85%;
     border: 1px solid transparent;
     background-color: white;
 }
