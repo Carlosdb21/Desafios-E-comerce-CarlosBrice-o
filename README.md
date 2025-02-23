@@ -1,4 +1,4 @@
-#Creado por Carlos Briceño#
+#Creado por Carlos Briceño
 
 
-##link pages  https://carlosdb21.github.io/Desafios-E-commerce-CarlosBrice-o/##
+##link pages  https://carlosdb21.github.io/Desafios-E-commerce-CarlosBrice-o/
